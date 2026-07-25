@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Face Recognition Attendance System</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2 class="heading">
+
+            Face Recognition Attendance System
+
+        </h2>
+
+        {% if message %}
+
+        <div class="success-message">
+
+            {{ message }}
+
+        </div>
+
+        {% endif %}
+
+        <div class="card-container">
+
+            <div class="card">
+
+                <h2 class="register-title">Register Student</h2>
+
+                <a href="{% url 'register' %}">
+
+                    <button class="btn">
+
+                        Register
+
+                    </button>
+
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h2 class="register-title">Take Attendance</h2>
+
+                <a href="{% url 'attendance' %}">
+
+                    <button class="btn">
+
+                        Start
+
+                    </button>
+
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h2 class="register-title">View Students</h2>
+
+                <a href="{% url 'students' %}">
+
+                    <button class="btn">
+
+                        Students
+
+                    </button>
+
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h2 class="register-title">Attendance Report</h2>
+
+                <a href="{% url 'attendance_list' %}">
+
+                    <button class="btn">
+
+                        Report
+
+                    </button>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

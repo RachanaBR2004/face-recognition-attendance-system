@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# Django
+db.sqlite3
+*.log
+media/
+
+# Sensitive project data - don't upload
+images/
+trainer/
+trainer/trainer.yml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

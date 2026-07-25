@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:rgb(128, 178, 206);
+}
+
+/* Main Container */
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+/* Heading */
+
+.heading{
+    text-align:center;
+    color:#101012;
+    margin-bottom:15px;
+    font-size:38px;
+}
+
+.sub-heading{
+    text-align:center;
+    color:#555;
+    margin-bottom:40px;
+    font-size:18px;
+}
+
+/* Success Message */
+
+.success-message{
+    width:60%;
+    margin:20px auto;
+    background:#d4edda;
+    color:#155724;
+    padding:15px;
+    border-radius:8px;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* Dashboard Cards */
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:rgb(174, 108, 51);
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 12px rgba(0,0,0,.15);
+    text-align:center;
+    transition:.3s;
+}
+.register-title{
+    color: rgb(209, 52, 52);
+}
+
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h2{
+    color:#cad7d8;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#555;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+/* Buttons */
+
+.btn{
+    background:#1e3a8a;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#723b16;
+}
+
+/* Form */
+
+.form-box{
+    width:450px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.form-box h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#1e3a8a;
+}
+
+.form-group{
+    margin-bottom:20px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.form-group input,
+.form-group select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+
+/* Error */
+
+.error{
+    color:red;
+    text-align:center;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+/* Footer */
+
+footer{
+    margin-top:60px;
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:18px;
+}

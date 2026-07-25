@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(210, 177, 137);
+    color: black;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.heading {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: rgb(214, 88, 19);
+}
+
+
+/* Table */
+
+.student-table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+.student-table th {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+
+.student-table td {
+    padding: 12px;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.student-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+
+/* Button */
+
+.btn {
+    margin-top: 30px;
+    padding: 10px 25px;
+    background-color: rgb(206, 124, 8);
+    color: rgb(7, 5, 5);
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background-color: rgb(231, 141, 56);
+    color: rgb(226, 190, 148);
+    border: 1px solid black;
+}
